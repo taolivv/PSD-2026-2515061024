@@ -19,15 +19,25 @@ Pada baris 36, fungsi sequential_search dipanggil dengan memasukkan data log, ju
 Pada baris 46–47, terdapat blok kondisi if name == "main" yang digunakan untuk memastikan fungsi main() hanya dipanggil dan dijalankan ketika file ini dieksekusi secara langsung. Jika file ini diimpor oleh program lain, maka fungsi main() tidak akan otomatis berjalan. Bagian ini berfungsi sebagai titik masuk utama program sesuai dengan praktik penulisan kode Python yang baik dan benar.
 
 ## 0utput Program
+<img width="317" height="339" alt="Screenshot 2026-05-12 181151" src="https://github.com/user-attachments/assets/264af056-0e2e-42d3-9f3e-c83e53200fba" />
 
 Program dimulai dengan menampilkan seluruh isi log kendaraan dalam bentuk tabel yang berisi nomor indeks dan plat nomor kendaraan yang tercatat masuk ke area parkir. Setelah tabel ditampilkan beserta total log kendaraan, program meminta pengguna untuk memasukkan plat nomor yang ingin dicari.
-
 Jika pengguna langsung menekan enter tanpa mengisi plat nomor, program akan menampilkan pesan "Input tidak boleh kosong!" kemudian meminta input kembali hingga pengguna memasukkan data yang valid.
-
 Selanjutnya, pengguna memasukkan plat nomor yang ingin dicari, misalnya B1234AB. Program kemudian menelusuri seluruh data log dari indeks 0 hingga indeks terakhir secara berurutan. Setiap kali plat nomor tersebut ditemukan, counter bertambah dan last_index diperbarui. 
 
-Jika pengguna memasukkan plat nomor dalam huruf kecil, misalnya b1234ab, program tetap dapat menemukannya karena input otomatis dikonversi ke huruf kapital menggunakan .upper() sebelum proses pencarian dilakukan.
+<img width="323" height="305" alt="Screenshot 2026-05-12 181206" src="https://github.com/user-attachments/assets/dc92e807-b658-4698-b96d-5dcf963aad46" />
+
+Jika pengguna memasukkan plat nomor dalam huruf kecil, misalnya d567cd, program tetap dapat menemukannya karena input otomatis dikonversi ke huruf kapital menggunakan .upper() sebelum proses pencarian dilakukan.
+
+<img width="334" height="287" alt="Screenshot 2026-05-12 181220" src="https://github.com/user-attachments/assets/53e1591b-f616-42b8-9257-a23612ac544b" />
 
 Jika pengguna memasukkan plat nomor yang tidak terdapat dalam log, misalnya Z9999AA, maka program akan menelusuri seluruh data hingga habis tanpa menemukan kecocokan.
-
 Program kemudian berhenti setelah hasil ditampilkan karena tidak menggunakan perulangan menu, sesuai dengan struktur kode dari modul yang langsung menampilkan hasil pencarian tanpa opsi pencarian ulang.
+
+
+## Link YouTube
+[https://youtu.be/-X0-q3PK8oc?si=sLpVaz88Dxee_iaG]
+
+## Tugas Akhir Tulis Tangan
+<img width="750" height="1046" alt="WhatsApp Image 2026-05-12 at 20 47 33" src="https://github.com/user-attachments/assets/377960f8-b778-402a-b221-ffec3f2b5678" />
+
