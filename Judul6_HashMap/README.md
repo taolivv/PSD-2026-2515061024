@@ -5,7 +5,8 @@ Program ini merupakan simulasi sistem absensi mahasiswa sederhana yang dilengkap
 Program ini mengimplementasikan struktur data Hash Map dengan metode Open Addressing dan Linear Probing sebagai dasar penyimpanan data absensi karena kemampuannya menyimpan dan mengambil data secara efisien dengan kompleksitas waktu rata-rata O(1). Setiap mahasiswa diidentifikasi menggunakan NPM sebagai key dan data absensi sebagai value. Ketika terjadi tabrakan (collision), program secara otomatis mencari slot kosong berikutnya menggunakan teknik linear probing. Ketika data dihapus, slot tidak dikosongkan sepenuhnya melainkan ditandai sebagai DELETED menggunakan mekanisme tombstone agar proses pencarian data lain yang melewati slot tersebut tetap berjalan dengan benar.
 
 ## Source Code
-<img width="1648" height="4244" alt="code6 FIX" src="https://github.com/user-attachments/assets/7dcae9bb-0cef-4129-af86-92e6b30b5a12" />
+<img width="1648" height="4244" alt="code6 oke fix" src="https://github.com/user-attachments/assets/7d68c65c-e723-4394-a8c9-a00732180985" />
+
 
 Pada baris 1–4, didefinisikan kelas SlotState yang berfungsi sebagai penanda kondisi setiap slot dalam tabel hash. Terdapat tiga konstanta yaitu EMPTY bernilai 0 yang menandakan slot belum pernah diisi, OCCUPIED bernilai 1 yang menandakan slot sedang berisi data, dan DELETED bernilai 2 yang menandakan slot pernah berisi data namun telah dihapus. Bagian ini berfungsi sebagai fondasi logika pengelolaan slot agar operasi pencarian tidak terhenti secara keliru pada slot yang telah dihapus.
 
