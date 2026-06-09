@@ -44,11 +44,12 @@ Jika pengguna memilih pilihan 1, program meminta input NPM yang ingin dicari. Ji
 Jika pengguna memilih pilihan 2, program menampilkan seluruh isi tabel hash dari slot 0 hingga slot 9. Slot yang belum pernah diisi ditampilkan sebagai Kosong, slot yang datanya telah dihapus ditampilkan sebagai Absensi Dibatalkan, dan slot yang berisi data aktif ditampilkan dengan format NPM [key] ([value]).
 <img width="658" height="736" alt="Screenshot 2026-06-09 204942" src="https://github.com/user-attachments/assets/80f494f9-65ff-486e-b844-31821f2a67e8" />
 
-Jika pengguna memilih pilihan 3, program meminta input NPM yang absensinya ingin dihapus. Jika NPM ditemukan, slot yang bersangkutan ditandai sebagai DELETED dan program mencetak konfirmasi misalnya: Absensi NPM 2515002 berhasil dibatalkan. Jika NPM tidak ditemukan, program mencetak pesan NPM tidak ditemukan. Slot yang ditandai DELETED tidak menghentikan pencarian data lain yang melewatinya akibat proses linear probing sebelumnya.
+Jika pengguna memilih pilihan 3, program meminta input NPM yang absensinya ingin dihapus. Jika NPM ditemukan, slot yang bersangkutan ditandai sebagai DELETED dan program mencetak konfirmasi misalnya: Absensi NPM 2515003 berhasil dibatalkan. Jika NPM tidak ditemukan, program mencetak pesan NPM tidak ditemukan. Slot yang ditandai DELETED tidak menghentikan pencarian data lain yang melewatinya akibat proses linear probing sebelumnya.
+
 <img width="400" height="170" alt="Screenshot 2026-06-09 204946" src="https://github.com/user-attachments/assets/091b4941-0170-4597-8211-e2d91fe8eebd" />
 
 Jika pengguna memilih pilihan 4, perulangan dihentikan dan program berakhir.
 
 
 ## Link YouTube
-[]
+[https://youtu.be/hLS18GF1lHE?si=FK_dmAPnifnhkFNp]
